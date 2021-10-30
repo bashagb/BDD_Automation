@@ -14,6 +14,8 @@ public class StepDefinition {
 	
 	WebDriver driver=null;
 
+	//cloned from git
+
 @Given("^User is on login page$")
 public void user_is_on_login_page() throws Throwable {
 	System.out.println(ConfigReader.readElementLoacator("login_page_tag"));
